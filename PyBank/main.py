@@ -4,16 +4,18 @@ import csv
 # path to collect data
 pybank = os.path.join('Resources', 'budget_data.csv')
 
-
+# define my lists
 profit = []
 monthly_changes = []
 date = []
 
+# initialize variables
 count = 0
 total_profit = 0
 total_change_profits = 0
 initial_profit = 0
 
+# open the file . . .
 with open(pybank, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
