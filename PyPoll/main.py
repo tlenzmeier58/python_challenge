@@ -52,7 +52,7 @@ with open(pypoll, newline="") as csvfile:
     print(f"Winner: {votes_per_candidate[0][0][0]}")
 
     # export to a text file
-    output_file = os.path.join("Resources", "election_results.csv")
+    output_file = os.path.join("Analysis", "election_results.csv")
 
 
     with open(output_file, "w") as output:

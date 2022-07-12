@@ -74,7 +74,7 @@ with open(pybank, newline="") as csvfile:
     print(f"Greatest Decrease In Profits: {lowest_change}")
 
     #output results to a text file.
-text_file = os.path.join("financial_analysis.txt")
+text_file = os.path.join("Analysis", "financial_analysis.txt")
 
 with open(text_file, "w") as output:
     output.write("Financial Analysis \n")
