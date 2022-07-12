@@ -66,6 +66,7 @@ with open(pypoll, newline="") as csvfile:
         output.write(f"{votes_per_candidate[0][2][0]}: {third}% ({votes_per_candidate[0][2][1]})\n")
         output.write("-----------------------------------------------------\n")
         output.write(f"Winner: {votes_per_candidate[0][0][0]}\n")
+        output.write("------------------------------------------------------\n")
 
 
 
